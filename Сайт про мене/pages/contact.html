@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакти</title>
+    <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -12,24 +13,26 @@
             font-family: 'Montserrat', sans-serif;
             margin: 20px;
             line-height: 1.6;
+            background-color: #faf9f6;
+            color: #333333;
         }
     </style>
 </head>
 <body>
     <nav>
-        <a href="../index.html"><button>Головна</button></a>
-        <a href="contact.html"><button>Контакти</button></a>
-        <a href="gallery.html"><button>Фото</button></a>
+        <a href="../index.html"><button class="nav-btn">Головна</button></a>
+        <a href="contact.html"><button class="nav-btn">Контакти</button></a>
+        <a href="gallery.html"><button class="nav-btn">Фото</button></a>
     </nav>
 
     <hr>
 
-    <div>
+    <div id="contact-section" class="contact-container">
         <h1>Контактна інформація</h1>
         <p>Зі мною можна зв'язатися цими способами:</p>
-        <ul>
+        <ul style="list-style-type: none; padding: 0;">
             <li><strong>Email:</strong> s.aliona07@gmail.com</li>
-            <li><strong>Telegram:</strong> <a href="https://t.me/anellya02" target="_blank">@anellya02</a></li>
+            <li style="margin: 10px 0;"><strong>Telegram:</strong> <a href="https://t.me/anellya02" target="_blank" class="telegram-link">@anellya02</a></li>
             <li><strong>Viber:</strong> +380680621030</li>
         </ul>
     </div>

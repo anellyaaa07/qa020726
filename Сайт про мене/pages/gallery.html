@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Фотогалерея</title>
+    <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -12,23 +13,25 @@
             font-family: 'Montserrat', sans-serif;
             margin: 20px;
             line-height: 1.6;
+            background-color: #faf9f6;
+            color: #333333;
         }
     </style>
 </head>
 <body>
     <nav>
-        <a href="../index.html"><button>Головна</button></a>
-        <a href="contact.html"><button>Контакти</button></a>
-        <a href="gallery.html"><button>Фото</button></a>
+        <a href="../index.html"><button class="nav-btn">Головна</button></a>
+        <a href="contact.html"><button class="nav-btn">Контакти</button></a>
+        <a href="gallery.html"><button class="nav-btn">Фото</button></a>
     </nav>
 
     <hr>
 
-    <div>
+    <div id="gallery-section" class="content-block">
         <h1>Фотогалерея</h1>
         <p>Тут зібрані мої улюблені фото з подорожей</p>
 
-        <div>
+        <div class="photo">
             <h2>Львів</h2>
             <img src="../photo/IMG_0505.JPG" alt="Фото 1" width="300">
             <img src="../photo/IMG_0474.JPG" alt="Фото 2" width="300">
@@ -36,7 +39,7 @@
 
         <br>
 
-        <div>
+        <div class="photo">
             <h2>Греція</h2>
             <img src="../photo/IMG_0951.JPG" alt="Фото 3" width="300">
             <img src="../photo/IMG_0983.JPG" alt="Фото 4" width="300">
@@ -50,7 +53,7 @@
 
         <br>
 
-        <div>
+        <div class="photo">
             <h2>Хорватія</h2>
             <img src="../photo/IMG_9671.JPG" alt="Фото 11" width="300">
             <img src="../photo/IMG_9725.JPG" alt="Фото 12" width="300">
@@ -64,7 +67,7 @@
 
         <br>
 
-        <div>
+        <div class="photo">
             <h2>Словаччина</h2>
             <img src="../photo/IMG_9903.JPG" alt="Фото 19" width="300">
             <img src="../photo/IMG_9984.JPG" alt="Фото 20" width="300">
